@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/res1"
+    android:orientation="vertical"
+    tools:context=".GUI.MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:fontFamily="@font/baloo2_semibold"
+        android:gravity="center"
+        android:text="ĐĂNG NHẬP"
+        android:textColor="#FF9800"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editTexttdn"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="30dp"
+        android:textSize="20dp"
+        android:background="@drawable/edit_text"
+        android:backgroundTint="@color/white"
+        android:fontFamily="@font/baloo2_semibold"
+        android:hint="Tên đăng nhập"
+        android:paddingStart="30dp"
+        android:paddingEnd="20dp"
+        android:textColor="@color/black" />
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="30dp"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/editTextmk"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@drawable/edit_text"
+            android:backgroundTint="@color/white"
+            android:fontFamily="@font/baloo2_semibold"
+            android:hint="Mật khẩu"
+            android:inputType="textPassword"
+            android:paddingStart="30dp"
+            android:paddingEnd="20dp"
+            android:textColor="@color/black"
+            android:textSize="20dp" />
+
+        <ImageView
+            android:id="@+id/checkoff"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="20dp"
+            android:layout_alignParentEnd="true"
+            android:src="@drawable/checkoff" />
+        <ImageView
+            android:id="@+id/checkon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="20dp"
+            android:visibility="gone"
+            android:layout_alignParentEnd="true"
+            android:src="@drawable/checkon" />
+    </RelativeLayout>
+
+
+
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/edit_text"
+        android:backgroundTint="#FB9C7B"
+        android:layout_marginEnd="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="60dp" />
+
+    <TextView
+        android:id="@+id/textViewqmk"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="20dp"
+        android:fontFamily="@font/baloo2_semibold"
+        android:text="Quên mật khẩu?"
+        android:textColor="#FA4A0C"
+        android:textSize="14dp" />
+
+    <android.widget.Button
+        android:id="@+id/buttondangnhap"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:background="@drawable/edit_text"
+        android:backgroundTint="#F8774A"
+        android:fontFamily="@font/baloo2_semibold"
+        android:text="Đăng nhập"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/baloo2_semibold"
+            android:gravity="center"
+            android:text="Bạn chưa có tài khoản ?"
+            android:textColor="@color/black"
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/textViewdangky"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:fontFamily="@font/baloo2_semibold"
+            android:gravity="center"
+            android:text="Đăng ký"
+            android:textColor="#FF5722"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</LinearLayout>

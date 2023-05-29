@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/android/DoAn2/app/src/main/res/drawable-v24/edit_text.xml" value="0.2995" />
+        <entry key="..\:/android/DoAn2/app/src/main/res/drawable-v24/ic_folder__1_.xml" value="0.2995" />
+        <entry key="..\:/android/DoAn2/app/src/main/res/drawable-v24/ic_left.xml" value="0.2995" />
+        <entry key="..\:/android/DoAn2/app/src/main/res/drawable-v24/ic_photo.xml" value="0.2995" />
+        <entry key="..\:/android/DoAn2/app/src/main/res/drawable/checkoff.xml" value="0.2995" />
+        <entry key="..\:/android/DoAn2/app/src/main/res/drawable/checkon.xml" value="0.2995" />
+        <entry key="..\:/android/DoAn2/app/src/main/res/drawable/ic_baseline_remove_red_eye_24.xml" value="0.2995" />
+        <entry key="..\:/android/DoAn2/app/src/main/res/layout/activity_main.xml" value="0.3484375" />
+        <entry key="..\:/android/DoAn2/app/src/main/res/layout/activity_main_dang_ky.xml" value="0.3625" />
+        <entry key="..\:/android/DoAn2/app/src/main/res/layout/activity_main_home.xml" value="0.22" />
+        <entry key="..\:/android/DoAn2/app/src/main/res/layout/activity_main_qlhoa_don_nhap.xml" value="0.3625" />
+        <entry key="..\:/android/DoAn2/app/src/main/res/layout/activity_main_qlhoa_don_xuat.xml" value="0.18541666666666667" />
+        <entry key="..\:/android/DoAn2/app/src/main/res/layout/activity_main_qlkhach_hang.xml" value="0.3625" />
+        <entry key="..\:/android/DoAn2/app/src/main/res/layout/activity_main_qlnha_cung_cap.xml" value="0.3625" />
+        <entry key="..\:/android/DoAn2/app/src/main/res/layout/activity_main_qlnhan_vien.xml" value="0.5" />
+        <entry key="..\:/android/DoAn2/app/src/main/res/layout/activity_main_qlsan_pham.xml" value="0.22" />
+        <entry key="..\:/android/DoAn2/app/src/main/res/layout/activity_main_qlsua_hdn.xml" value="0.3625" />
+        <entry key="..\:/android/DoAn2/app/src/main/res/layout/activity_main_qlthem_hdn.xml" value="0.3625" />
+        <entry key="..\:/android/DoAn2/app/src/main/res/layout/activity_main_sua_hdn.xml" value="0.33" />
+        <entry key="..\:/android/DoAn2/app/src/main/res/layout/activity_main_sua_hdx.xml" value="0.18541666666666667" />
+        <entry key="..\:/android/DoAn2/app/src/main/res/layout/activity_main_sua_kh.xml" value="0.3625" />
+        <entry key="..\:/android/DoAn2/app/src/main/res/layout/activity_main_sua_ncc.xml" value="0.3625" />
+        <entry key="..\:/android/DoAn2/app/src/main/res/layout/activity_main_sua_nhanvien.xml" value="0.18541666666666667" />
+        <entry key="..\:/android/DoAn2/app/src/main/res/layout/activity_main_sua_san_pham.xml" value="0.18541666666666667" />
+        <entry key="..\:/android/DoAn2/app/src/main/res/layout/activity_main_them_hdn.xml" value="0.3625" />
+        <entry key="..\:/android/DoAn2/app/src/main/res/layout/activity_main_them_hdx.xml" value="0.33" />
+        <entry key="..\:/android/DoAn2/app/src/main/res/layout/activity_main_them_kh.xml" value="0.3625" />
+        <entry key="..\:/android/DoAn2/app/src/main/res/layout/activity_main_them_ncc.xml" value="0.3625" />
+        <entry key="..\:/android/DoAn2/app/src/main/res/layout/activity_main_them_nhan_vien.xml" value="0.3625" />
+        <entry key="..\:/android/DoAn2/app/src/main/res/layout/activity_main_them_san_pham.xml" value="0.3484375" />
+        <entry key="..\:/android/DoAn2/app/src/main/res/layout/dropdown_item.xml" value="0.3614583333333333" />
+        <entry key="..\:/android/DoAn2/app/src/main/res/layout/item_hdn.xml" value="0.3625" />
+        <entry key="..\:/android/DoAn2/app/src/main/res/layout/item_hdx.xml" value="0.25" />
+        <entry key="..\:/android/DoAn2/app/src/main/res/layout/item_kh.xml" value="0.3614583333333333" />
+        <entry key="..\:/android/DoAn2/app/src/main/res/layout/item_ncc.xml" value="0.3625" />
+        <entry key="..\:/android/DoAn2/app/src/main/res/layout/item_nv.xml" value="0.3614583333333333" />
+        <entry key="..\:/android/DoAn2/app/src/main/res/layout/item_sp.xml" value="0.3625" />
+        <entry key="..\:/android/DoAn2/app/src/main/res/menu/menu_camera.xml" value="0.3625" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

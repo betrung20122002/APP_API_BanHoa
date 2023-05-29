@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.doan2">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/logo"
+        android:label="Quán lý bán điện thoại"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.DoAn2"
+        tools:targetApi="31">
+        <activity
+            android:name=".GUI.QLHoaDonXuat.MainActivitySuaHDX"
+            android:exported="false" />
+        <activity
+            android:name=".GUI.QLHoaDonXuat.MainActivityThemHDX"
+            android:exported="false" />
+        <activity
+            android:name=".GUI.QLHoaDonXuat.MainActivityQLHoaDonXuat"
+            android:exported="false" />
+        <activity
+            android:name=".GUI.QLHoaDonNhap.MainActivitySuaHDN"
+            android:exported="false" />
+        <activity
+            android:name=".GUI.QLHoaDonNhap.MainActivityThemHDN"
+            android:exported="false" />
+        <activity
+            android:name=".GUI.QLHoaDonNhap.MainActivityQLHoaDonNhap"
+            android:exported="false" />
+        <activity
+            android:name=".GUI.QLKhanhHang.MainActivitySuaKH"
+            android:exported="false" />
+        <activity
+            android:name=".GUI.QLKhanhHang.MainActivityThemKH"
+            android:exported="false" />
+        <activity
+            android:name=".GUI.QLKhanhHang.MainActivityQLKhachHang"
+            android:exported="false" />
+        <activity
+            android:name=".GUI.QLNhaCungCap.MainActivitySuaNCC"
+            android:exported="false" />
+        <activity
+            android:name=".GUI.QLNhaCungCap.MainActivityThemNCC"
+            android:exported="false" />
+        <activity
+            android:name=".GUI.QLNhaCungCap.MainActivityQLNhaCungCap"
+            android:exported="false" />
+        <activity
+            android:name=".GUI.QLSanPham.MainActivitySuaSanPham"
+            android:exported="false" />
+        <activity
+            android:name=".GUI.QLSanPham.MainActivityThemSanPham"
+            android:exported="false" />
+        <activity
+            android:name=".GUI.QLSanPham.MainActivityQLSanPham"
+            android:exported="false" />
+        <activity
+            android:name=".GUI.QLNhanVien.MainActivitySuaNhanvien"
+            android:exported="false" />
+        <activity
+            android:name=".GUI.QLNhanVien.MainActivityThemNhanVien"
+            android:exported="false" />
+        <activity
+            android:name=".GUI.QLNhanVien.MainActivityQLNhanVien"
+            android:exported="false" />
+        <activity
+            android:name=".GUI.MainActivityHome"
+            android:exported="false" />
+        <activity
+            android:name=".GUI.MainActivityDangKy"
+            android:exported="false" />
+        <activity
+            android:name=".GUI.MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

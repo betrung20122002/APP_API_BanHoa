@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/teal_200"
+    android:orientation="vertical"
+    tools:context=".GUI.QLNhaCungCap.MainActivitySuaNCC">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="10dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/ImageView_OnBack"
+            android:layout_width="40dp"
+            android:layout_gravity="center_vertical"
+            android:layout_height="35dp"
+            android:background="@drawable/edit_text"
+            android:backgroundTint="#FF5722"
+            android:padding="10dp"
+            android:src="@drawable/ic_left" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="20dp"
+            android:fontFamily="@font/baloo2_semibold"
+            android:text="Sửa nhà cung cấp"
+            android:textColor="@color/white"
+            android:textSize="30dp" />
+    </LinearLayout>
+
+
+    <EditText
+        android:id="@+id/editTextm"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="30dp"
+        android:background="@drawable/edit_text"
+        android:backgroundTint="@color/white"
+        android:fontFamily="@font/baloo2_semibold"
+        android:hint="Mã nhà cung cấp"
+        android:paddingStart="30dp"
+        android:paddingEnd="20dp"
+        android:textColor="@color/black" />
+
+    <EditText
+        android:id="@+id/editTextt"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="30dp"
+        android:background="@drawable/edit_text"
+        android:backgroundTint="@color/white"
+        android:fontFamily="@font/baloo2_semibold"
+        android:hint="Tên nhà cung cấp"
+        android:paddingStart="30dp"
+        android:paddingEnd="20dp"
+        android:textColor="@color/black" />
+
+
+
+    <android.widget.Button
+        android:id="@+id/btnsua"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edit_text"
+        android:backgroundTint="#FF5722"
+        android:text="Thêm"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center_horizontal"
+        android:textAllCaps="false"
+        android:textColor="@color/white" />
+</LinearLayout>
